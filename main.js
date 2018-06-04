@@ -2,9 +2,10 @@
 
 const artHead = document.querySelector(".article__header").textContent = "Welcome the Shu blog"
 
-// Use JavaScript to obtain a reference to all article__header elements and change their classList property value to "article__header important".
-
+// Use JavaScript to obtain a reference to all article__header elements
 const artHeadEl =document.querySelectorAll(".article__header");
+
+// and change their classList property value to "article__header important".
 for(let i= 0;i< artHeadEl.length;i++){
     artHeadEl[i].classList.add("important");
     console.log(artHeadEl[i].classList);
